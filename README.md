@@ -13,7 +13,7 @@
 ![wireframe.calculadora](https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Login%20Screen.png)'
 ![wireframe.calculadora](https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Objetivo.png)'
 ![wireframe.calculadora](https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Lista.png)'
-![wireframe.calculadora]https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Lista%20do%20pH.png)'
+![wireframe.calculadora](https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Lista%20do%20pH.png)'
 ![wireframe.calculadora](https://github.com/Giuzntt/OceanApp/blob/master/OceanApp/assets/Participantes.png)'
 
 
