@@ -1,4 +1,4 @@
-import { FaPencilAlt, FaTrash } from "react-icons/fa";
+import {  FaTrash } from "react-icons/fa";
 import {  useLocation } from "../../Hooks/useLocation";
 import { Container } from "./styles";
 
@@ -35,9 +35,7 @@ export function Table() {
                                     <td>{new Intl.DateTimeFormat('pt-BR').format(new Date(product.data))}</td>
                                     <td>{product.status}</td>
                                     <td>
-                                        <button className="edit">
-                                            <FaPencilAlt />
-                                        </button>
+                                        
                                         <button className="delete" 
                                             onClick={() => deleteProductFromTable(product)}>
                                             <FaTrash />

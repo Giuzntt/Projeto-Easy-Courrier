@@ -25,20 +25,7 @@ export const Container = styled.div`
             border-radius: 0.25rem;
             font-size: 1.2rem;
 
-            button.edit {
-                padding: 10px;
-                background: #4285f4;
-                border: none;
-                border-radius: 5px;
-                font-size: 15px;
-                margin: 0px 5px;
-                color: white;
-                cursor: pointer;
-                transition: filter 0.2s;
-                &:hover {
-                    filter: brightness(0.8);
-                }
-            }
+        
             button.delete {
                 padding: 10px;
                 background: #ea4335;

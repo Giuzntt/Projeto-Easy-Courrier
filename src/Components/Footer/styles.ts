@@ -3,18 +3,28 @@ import styled from "styled-components";
 
 
 export const FooterContainer = styled.footer`
+    overflow: hidden;
+    width: 100%;
+    height: 20vh;
     position: relative;
-    border: 1px solid #0f163c;
-    background: #0f163c;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    background-color: #0f163c;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        z-index: 3;
+        pointer-events: none;
+    }
 `;
 
 export const FooterContent = styled.div`
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 3rem 1rem;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;

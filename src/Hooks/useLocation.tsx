@@ -41,10 +41,7 @@ export function LocationProvider({ children }: LocationProviderProps) {
         loadProducts();
     }, []);
 
-    async function updateProduct(product: ITableProps) {
-        await api.put(`/produtcs/${product.id}`, product);
-        setSearchProduct(searchProduct.map(p => (p.id === product.id ? product : p)));
-    }
+    
     async function findById(id: string) {
         const response = await api.get(`/produtcs/${id}`);
         

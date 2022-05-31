@@ -1,5 +1,6 @@
 
 import imagehome from '../../Assets/images/img-home.jpg'
+import CardComponent from '../../Components/Card';
 import {TextInput} from '../../Components/Inputs/Text';
 import { ContainerHome, ContainerHomeTitle } from './styles';
 
@@ -11,9 +12,12 @@ export default function  HomePage () {
 
                 <div>
                     <p>Somos uma empresa de transportes disrruptiva, entregamos o seu produto com qualidade, eficiência...</p>
-                    <TextInput/>
+                    <TextInput />
                 </div>
             </ContainerHomeTitle>
+            <div className="cards">
+                <CardComponent />
+            </div>
         </ContainerHome>
     );
 }
